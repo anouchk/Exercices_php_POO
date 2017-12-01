@@ -1,0 +1,13 @@
+{
+	"autoload" : {
+		"files" : [
+			"src/helpers.php"
+		],
+		"classmap" : [
+			"song.php"
+		],
+		"psr-4" : {
+			"Acme\\": "src" 
+		}
+	}
+}
