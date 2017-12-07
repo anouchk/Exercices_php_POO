@@ -28,6 +28,7 @@ class ComposerStaticInit2e18ac9d8ca27a75a37d09fc90666c97
         'Acme\\League' => __DIR__ . '/../..' . '/src/league.php',
         'Acme\\Person' => __DIR__ . '/../..' . '/src/person.php',
         'Acme\\Team' => __DIR__ . '/../..' . '/src/team.php',
+        'Song' => __DIR__ . '/../..' . '/song.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

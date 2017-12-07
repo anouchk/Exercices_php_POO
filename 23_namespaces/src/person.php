@@ -5,7 +5,7 @@ namespace Acme;
 class Person {
 	private $name;
 
-	public function __construct($name){
+	public function __construct($name, \Song $sonfavori){
 		$this->name = $name;
 	}
 

@@ -5,8 +5,10 @@ echo random_number() . " <br />";
 
 new Song;
 
-$honore = new Person ("Honore Hounwanou");
-$caroline = new Person ("Caroline Dupont");
+echo " <br />";
+
+$honore = new Person ("Honore Hounwanou", new Song);
+$caroline = new Person ("Caroline Dupont", new Song);
 
 
 $barcelona = new Team("Barcelona");

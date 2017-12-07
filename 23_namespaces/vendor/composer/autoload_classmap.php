@@ -9,4 +9,5 @@ return array(
     'Acme\\League' => $baseDir . '/src/league.php',
     'Acme\\Person' => $baseDir . '/src/person.php',
     'Acme\\Team' => $baseDir . '/src/team.php',
+    'Song' => $baseDir . '/song.php',
 );
